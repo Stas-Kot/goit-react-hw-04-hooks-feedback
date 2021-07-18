@@ -1,0 +1,16 @@
+.button {
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-color: transparent;
+  border: 1px solid grey;
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}
